@@ -1,0 +1,304 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+   font-family:'Roboto', sans-serif;
+  /* font-family:'Gelasio', sans-serif;*/
+  /* font-family:'Poppins', sans-serif;*/
+  font-size: 10px;
+  font-weight: 400;
+  font-style: normal;
+  color:  #081F32;
+  background-color: #fff;
+
+}
+.container{
+   max-width: 1170px;
+   margin: 0 auto;
+   padding: 0 0;
+}
+.header{
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+z-index: 1;
+
+
+}
+.header-row{
+  display: flex;
+   align-items: center;
+   margin-left: 20rem;
+}
+.icon{
+  font-family: Gelasio;
+font-style: normal;
+font-size: 24px;
+padding-right: 12rem;
+}
+.nav-list{
+  display: flex;
+  list-style: none;
+
+ }
+ .nav-item{
+  padding-left: 4rem;
+  
+ }
+.nav-link{
+  color: #081F32  ;
+   font-size: 16px; 
+  text-decoration: none;
+  font-family: Gelasio;
+  font-style: normal;
+}
+.search{
+ 
+    text-decoration: none;
+    display: inline-block;
+background: #1B75BB;
+color: #FFFFFF;
+border-radius: 5px;
+padding: 1rem 2rem;
+margin-left: 33rem;
+
+
+}
+/* first selection*/
+.first-section{
+  background-image: url("../imgs/men-img.jpg");
+  min-height: 69rem;
+  padding: 22rem 23rem 0;
+  z-index: 1;
+}
+.container-box{
+  position: absolute;
+width: 690px;
+height: 110px;
+left: 195px;
+top: 640px;
+background: rgba(255, 255, 255, 0.21);
+backdrop-filter: blur(70px);
+border-radius: 10px;
+}
+
+.wrap-wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+
+.current{
+  font-size: 2rem;
+  color: #1B75BB;
+ text-transform:uppercase;
+ 
+  
+}
+.first-selection-title{
+ font-size: 5.7rem;
+ max-width: 45rem;
+ padding: 15px 0 25px;
+
+}
+.colortext{
+  color:#1B75BB;
+}
+
+
+.first-section-text{
+
+max-width: 34rem;
+min-height: 90px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+color: #081F32;
+}
+.inner{
+text-decoration: none;
+display: inline-block;
+background: #1B75BB;
+color: #FFFFFF;
+border-radius: 5px;
+padding: 15px 30px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+}
+
+
+
+/*hol*/
+.container-box{
+  position: absolute;
+width: 690px;
+height: 110px;
+left: 195px;
+top: 640px;
+background: rgba(255, 255, 255, 0.21);
+backdrop-filter: blur(70px);
+border-radius: 10px;
+}
+
+.wrap-wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.aside{
+  padding-left: 5rem;
+ 
+}
+.thumb{
+ margin-top: 4rem; 
+}
+.text{
+  position: absolute;
+  font-weight: 500;
+  font-family: Roboto;
+  font-style: normal;
+    font-size: 16px;
+    color: #081F32;
+  } 
+
+.dropdown{
+  position: absolute;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+color: #081F32;
+padding-top: 2rem;
+
+}
+
+
+.button{
+  text-decoration: none;
+display: inline-block;
+background: #1B75BB;
+border-radius: 5px;
+padding: 1.5rem 3rem;
+font-family: Roboto;
+font-style: normal;
+font-size: 16px;
+color: #FFFFFF;
+
+}
+
+
+
+
+/* HOLIAYS */
+.holidays {
+  padding: 20rem 0 25rem 15rem;
+}
+.holidays-row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.holidays-imgs{
+  position: relative;
+}
+.holidays-img-main {
+  position: relative;
+  z-index: 1;
+}
+
+.holidays-img-sec {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+
+.holidays-img-ripples {
+  position: absolute;
+  left: -50px;
+  top: 90px;
+}
+
+
+
+.holidays-container{
+
+}
+.current{
+
+}
+.holidays-title{
+  font-family: gelasio;
+   font-size: 32px;
+    margin-top: 15px;
+ color: #081F32;
+}
+.slogan{
+  text-decoration: none;
+  display: inline-block;
+    background: #1B75BB;
+  border-radius: 5px;
+  padding: 1.5rem 3rem;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 16px;
+  color: #FFFFFF;
+  margin-top: 3rem;
+}
+
+
+
+
+
+
+/*ASIDE*/
+
+.aside{
+  
+}
+.lead{
+  height: 45px;
+  
+  
+}
+.blockquote{
+  font-family: gelasio;
+font-style: medium;
+font-size: 32px;
+color: #081F32;
+text-align: center;
+} 
+
+.tagline{
+  display: inline;
+  position: absolute;
+  width: 82rem;
+  margin: 2.5rem 39rem 0 39rem;
+}
+.desc{
+font-family: roboto;
+font-style: regular;
+font-size: 18px;
+text-align: center;
+}
+@media screen and (max-width:767px){
+  .first-selection-title{
+    font-size: 4.7rem;
+  }
+
+
+@media screen and (max-width:425px){
+  .first-selection-title{
+    font-size: 2.7rem;
+  }
+}
